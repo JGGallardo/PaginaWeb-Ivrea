@@ -1,0 +1,52 @@
+.productos {
+    @include grid(2, 1rem);
+    @include desktop {
+        @include grid(1, 1rem);
+    }
+    @include tablet {
+        @include grid(1, 2rem);
+    }
+    @include telefono {
+        @include grid(1, 1rem);
+    }
+    justify-content: center;
+    width: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    margin: 1rem;
+    img {
+        width: 40%;
+    }
+    @include tablet {
+        flex-direction: column;
+        img {
+            width: 100%;
+        }
+    }
+    @include telefono {
+        flex-direction: column;
+        img {
+            width: 100%;
+        }
+    }
+
+    .card-body {
+        h5 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.4rem;
+            span {
+                font-weight: bold;
+                font-size: 1.7rem;
+            }
+        }
+        button {
+            padding: 1rem;
+        }
+    }
+}

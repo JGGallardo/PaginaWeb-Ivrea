@@ -1,0 +1,260 @@
+{
+    "productos": [
+        {
+            "categoria": "Pizzas",
+            "nombre": "Margarita",
+            "precio": 10000,
+            "ingredientes": [
+                "Pomodoro",
+                "Mozzarella",
+                "Parmesano",
+                "Aceite de oliva",
+                "Albahaca fresca"
+            ],
+            "imagen": "./assets/images/Pizzas/Margarita.png"
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Parmegiana",
+            "precio": 10500,
+            "ingredientes": [
+                "Pomodoro",
+                "Mozzarella",
+                "Berenjenas asadas",
+                "Parmesano",
+                "Aceite de oliva",
+                "Albahaca fresca"
+            ],
+            "imagen": "./assets/images/Pizzas/parmegiana.png"
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Pepperoni y Miel Hot",
+            "precio": 12500,
+            "ingredientes": [
+                "Pomodoro",
+                "Mozzarella",
+                "Salame pepperoni",
+                "Parmesano",
+                "Miel con peperoncino",
+                "Albahaca fresca"
+            ],
+            "imagen": "./assets/images/Pizzas/pepperoni y miel hot.png"
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Cuatro Quesos",
+            "precio": 12500,
+            "ingredientes": [
+                "Pomodoro",
+                "Provoleta",
+                "Queso azul",
+                "Mozzarella",
+                "Parmesano",
+                "Albahaca fresca"
+            ],
+            "imagen": "./assets/images/Pizzas/Cuatro Quesos.png"
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Papa y Panceta",
+            "precio": 13000,
+            "ingredientes": [
+                "Pomodoro",
+                "Queso dambo ahumado",
+                "Papas asadas",
+                "Panceta ahumada",
+                "Pimienta negra",
+                "Romero fresco"
+            ],
+            "imagen": "./assets/images/Pizzas/Papa y Panceta.png"
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Mortadella con Pistacho",
+            "precio": 13500,
+            "ingredientes": [
+                "Pomodoro",
+                "Parmesano",
+                "Mozzarella",
+                "Mortadella con pistacho",
+                "Pesto de albahaca"
+            ],
+            "imagen": "./assets/images/Pizzas/Mortadella con Pistacho.png"
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Lomo Ahumado y Morrones",
+            "precio": 13500,
+            "ingredientes": [
+                "Pomodoro",
+                "Parmesano",
+                "Mozzarella",
+                "Lomito ahumado",
+                "Morrones asados",
+                "Aceitunas negras",
+                "Aceite de oliva"
+            ],
+            "imagen": "./assets/images/Pizzas/lomo ahumado y morrones.png"
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Napo Ivrea",
+            "precio": 11500,
+            "ingredientes": [
+                "Pomodoro",
+                "Parmesano",
+                "Mozzarella",
+                "Tomates secos hidratados en oliva",
+                "Pesto de albahaca"
+            ],
+            "imagen": "./assets/images/Pizzas/Napo Ivrea.png"
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Rúcula y Crudo",
+            "precio": 14000,
+            "ingredientes": [
+                "Pomodoro",
+                "Mozzarella",
+                "Rúcula fresca",
+                "Jamón crudo (12 meses de estac.)",
+                "Parmesano",
+                "Aceite de oliva"
+            ],
+            "imagen": "./assets/images/Pizzas/Rúcula y Crudo.png"
+        },
+        {
+            "categoria": "Paninis",
+            "nombre": "BERENJENA Y FIOR DI LATTE",
+            "precio": 12000,
+            "ingredientes": [
+                "Berenjenas asadas",
+                "Queso fior di latte",
+                "Pasta de tomate",
+                "Rúcula fresca",
+                "Aceite de oliva"
+            ],
+            "imagen": "./assets/images/Paninis/Berenjena y fior di latte.png"
+        },
+        {
+            "categoria": "Paninis",
+            "nombre": "Porchetta y Ahumado",
+            "precio": 13000,
+            "ingredientes": [
+                "Porchetta de cerdo",
+                "Queso ahumado",
+                "Mayonesa de morrón",
+                "Rúcula fresca"
+            ],
+            "imagen": "./assets/images/Paninis/Porchetta y Ahumado.png"
+        },
+        {
+            "categoria": "Paninis",
+            "nombre": "Bondiola y Fontina",
+            "precio": 12500,
+            "ingredientes": [
+                "Bondiola curada",
+                "Queso fontina",
+                "Tomate fresco",
+                "Hojas de albahaca"
+            ],
+            "imagen": "./assets/images/Paninis/Bondiola y Fontina.png"
+        },
+        {
+            "categoria": "Paninis",
+            "nombre": "Mortadella y Straciatella",
+            "precio": 12500,
+            "ingredientes": [
+                "Mortadella con pistachos",
+                "Queso straciatella",
+                "Pesto de albahaca",
+                "Aceite de oliva"
+            ],
+            "imagen": "./assets/images/Paninis/Mortadella y Straciatella.png"
+        },
+        {
+            "categoria": "Paninis",
+            "nombre": "Crudo y Fior Di Latte",
+            "precio": 13500,
+            "ingredientes": [
+                "Jamón crudo (12 meses de estac.)",
+                "Queso fior di latte",
+                "Tomate fresco",
+                "Hojas de albahaca",
+                "Aceite de oliva"
+            ],
+            "imagen": "./assets/images/Paninis/Crudo y Fior Di Latte.png"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "COCA-COLA",
+            "precio": 600,
+            "ingredientes": ["Coca-Cola (500 ml)"],
+            "imagen": "./assets/images/Bebidas/coca cola.jpg"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "SPRITE",
+            "precio": 600,
+            "ingredientes": ["Sprite (500 ml)"],
+            "imagen": "./assets/images/Bebidas/sprite.jpg"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "FANTA",
+            "precio": 600,
+            "ingredientes": ["Fanta (500 ml)"],
+            "imagen": "./assets/images/Bebidas/fanta.webp"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "AGUA MINERAL",
+            "precio": 600,
+            "ingredientes": ["Agua mineral (500 ml)"],
+            "imagen": "./assets/images/Bebidas/agua.jpg"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "AQUARIUS PERA",
+            "precio": 600,
+            "ingredientes": ["Aquarius sabor pera (500 ml)"],
+            "imagen": "./assets/images/Bebidas/aquarius pera.webp"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "AQUARIUS MANZANA",
+            "precio": 600,
+            "ingredientes": ["Aquarius sabor manzana (500 ml)"],
+            "imagen": "./assets/images/Bebidas/aquarius manzana.jpg"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "AQUARIUS NARANJA",
+            "precio": 600,
+            "ingredientes": ["Aquarius sabor naranja (500 ml)"],
+            "imagen": "./assets/images/Bebidas/aquarius naranja.webp"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "AQUARIUS POMELO",
+            "precio": 600,
+            "ingredientes": ["Aquarius sabor pomelo (500 ml)"],
+            "imagen": "./assets/images/Bebidas/aquarius pomelo.jpg"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "CERVEZA STELLA ARTOIS",
+            "precio": 1200,
+            "ingredientes": ["Cerveza Stella Artois (lata 473 ml)"],
+            "imagen": "./assets/images/Bebidas/stella.jpg"
+        },
+        {
+            "categoria": "Bebidas",
+            "nombre": "CERVEZA HEINEKEN",
+            "precio": 1200,
+            "ingredientes": ["Cerveza Heineken (lata 473 ml)"],
+            "imagen": "./assets/images/Bebidas/heineken.webp"
+        }
+    ]
+}

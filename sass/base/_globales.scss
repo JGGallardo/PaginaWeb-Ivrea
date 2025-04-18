@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+    min-height: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $fuente-principal;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    /****/
+    display: grid;
+    min-height: 90dvh;
+    grid-template-rows: auto 1fr auto;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.4rem;
+}
+p {
+    line-height: 2;
+}
+a {
+    text-decoration: none;
+    color: $blanco;
+}
+ol,
+ul,
+li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+    object-fit: cover;
+    transition-duration: 1s;
+}
+button {
+    all: unset;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    color: $blanco;
+    background-color: $primary-color;
+    transition: background-color 0.3 ease;
+}
+button:hover {
+    background-color: $secondary-color;
+}

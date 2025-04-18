@@ -1,0 +1,73 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $primary-color;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 60px;
+}
+.custom-navbar.navbar {
+    background-color: $primary-color;
+
+    .navbar-brand {
+        &:hover {
+            color: darken($blanco, 10%);
+        }
+    }
+    .navbar-toggler {
+        border: none;
+        padding: 0.5rem;
+        transition: transform 0.3s ease;
+        background-color: $blanco;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &[aria-expanded="true"] {
+            transform: rotate(90deg);
+        }
+    }
+
+    .nav-link {
+        color: $blanco;
+        font-weight: 500;
+        padding: 0.5rem 2rem;
+        transition: color 0.3s ease;
+        margin-bottom: 1rem;
+
+        &:hover,
+        &.active {
+            color: darken($blanco, 20%);
+        }
+    }
+
+    .navbar-collapse {
+        transition: all 0.3s ease-in-out;
+    }
+
+    #carrito {
+        background-color: transparent;
+        border: 1px solid $blanco;
+        color: $blanco;
+        margin-right: 2rem;
+        width: 6rem;
+        height: 2rem;
+    }
+}
+
+@include desktop {
+    .custom-navbar.navbar {
+        .navbar-collapse {
+            padding: 1rem 0;
+
+            .navbar-nav {
+                gap: 0.5rem;
+            }
+        }
+    }
+}
