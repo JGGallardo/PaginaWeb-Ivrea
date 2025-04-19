@@ -15,7 +15,7 @@ class Producto {
 // y guardarlos en la variable productos
 export async function importarProductosDesdeJSON() {
     try {
-        const response = await fetch("../dbProductos.json");
+        const response = await fetch("./dbProductos.json");
         const data = await response.json();
         productos = data.productos.map(
             (p) => new Producto(p.categoria, p.nombre, p.precio, p.ingredientes, p.imagen)
@@ -23,16 +23,6 @@ export async function importarProductosDesdeJSON() {
         return productos;
     } catch (error) {
         console.error("Error al cargar los productos: ", error);
-        try {
-            const response = await fetch("/PaginaWeb-Ivrea/dbProductos.json");
-            const data = await response.json();
-            productos = data.productos.map(
-                (p) => new Producto(p.categoria, p.nombre, p.precio, p.ingredientes)
-            );
-            cargarProductos(productos, agregarAlCarrito);
-        } catch (localError) {
-            console.error("Error al cargar los productos localmente:", localError);
-        }
     }
 }
 
